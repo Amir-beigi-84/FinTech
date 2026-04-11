@@ -1,0 +1,49 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Environment variables — NEVER commit these
+.env
+.env.*
+!.env.example
+
+# Poetry
+# poetry.lock should be committed, so don't ignore it
+
+# Flutter
+fin_front/.dart_tool/
+fin_front/.flutter-plugins
+fin_front/.flutter-plugins-dependencies
+fin_front/.packages
+fin_front/build/
+fin_front/pubspec.lock  # keep this if you want reproducible builds
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
