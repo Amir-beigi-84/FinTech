@@ -47,3 +47,5 @@ fin_front/pubspec.lock  # keep this if you want reproducible builds
 # OS
 .DS_Store
 Thumbs.db
+
+DJANGO_SECRET_KEY="your-super-secret-local-dev-key-here"
